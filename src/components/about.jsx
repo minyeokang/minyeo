@@ -63,7 +63,7 @@ function About(props) {
                                     <p> <img src="img/icon/html.svg" alt="html" /></p>
                                     <p><img src="img/icon/css.svg" alt="css" /></p>
                                     <p><img src="img/icon/js.svg" alt="js" /></p>
-                                    <p><img src="img//icon/jquery.svg" alt="jquery" /></p>
+                                    <p><img src="img/icon/jquery.svg" alt="jquery" /></p>
                                     <p> <img src="img/icon/react.svg" alt="react" /></p>
 
                                     <p> <img src="img/icon/redux.svg" alt="redux" /></p>
