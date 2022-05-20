@@ -29,7 +29,7 @@ function Portfolio() {
                                 <div onClick={() => {
                                     window.open('https://minyeokang.github.io/space_styleguide')
                                 }}>
-                                    <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" className={styles.link} />  Styleguide
+                                    <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" className={styles.link} />Styleguide
                                 </div>
                             </div>
                         </div>
@@ -48,9 +48,14 @@ function Portfolio() {
                                 </div>
 
                                 <div onClick={() => {
+                                    window.open('https://minyeokang.github.io/globelist_bidesign/')
+                                }}>
+                                    <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" className={styles.link} />BI Design
+                                </div>
+                                <div onClick={() => {
                                     window.open('https://minyeokang.github.io/globelist_styleguide')
                                 }}>
-                                    <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" className={styles.link} />  Styleguide
+                                    <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" className={styles.link} />Styleguide
                                 </div>
                             </div>
                         </div>
@@ -71,7 +76,7 @@ function Portfolio() {
                                 <div onClick={() => {
                                     window.open('https://minyeokang.github.io/soul_styleguide')
                                 }}>
-                                    <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" className={styles.link} />  Styleguide
+                                    <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" className={styles.link} />Styleguide
                                 </div>
                             </div>
                         </div>
@@ -86,7 +91,7 @@ function Portfolio() {
                         </div>
                     </li>
                     <li onClick={() => { window.open('https://minyeokang.github.io/reminder') }}>
-                        <img src="img/reminder-main.jpg" alt="reminder" className={styles.mainImg} />
+                        <img src="img/woodydesktop.png" alt="reminder" className={styles.mainImg} />
                         <div className={styles.abs}>
                             <div className={styles.list}>
                                 <p><img src='img/icon/react.svg' alt='react' /> PWA<br />
@@ -95,7 +100,7 @@ function Portfolio() {
                         </div>
                     </li>
                     <li onClick={() => { window.open('https://minyeokang.github.io/') }}>
-                        <img src="img/reminder-main.jpg" alt="" className={styles.mainImg} />
+                        <img src="img/mall.png" alt="" className={styles.mainImg} />
                         <div className={styles.abs}>
                             <div className={styles.list}>
                                 <p><img src='img/icon/cafe.JPG' alt='cafe' className={styles.link_cafe} />Shopping mall<br />
