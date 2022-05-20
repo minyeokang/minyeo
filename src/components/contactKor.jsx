@@ -82,7 +82,7 @@ function ContactKor() {
                         <p>
                             <span onClick={() => { window.open('https://github.com/minyeokang') }}>Github <FontAwesomeIcon icon="fa-brands fa-github" className={styles.touch_arc} /></span>
 
-                            <span onClick={() => { window.open('https://minyeo.tistory.com/') }}>Blog <FontAwesomeIcon icon="fa-solid fa-book-open" className={styles.touch_arc} /></span>
+                            <span onClick={() => { window.open('https://minyeo.tistory.com/') }}>Blog <FontAwesomeIcon icon="fa-solid fa-book-open" /></span>
                         </p>
                     </div>
                 </div>

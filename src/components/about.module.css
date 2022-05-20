@@ -74,7 +74,6 @@
 .provide div dl {
     width: 200px;
     text-align: center;
-
     padding: 10px;
     border-radius: 10px;
 }
@@ -204,6 +203,22 @@
 }
 
 @media(max-width: 450px) {
+    .about {
+        max-width: calc(100% - 10px);
+    }
+
+    .bio p {
+        font-size: 1.6rem;
+    }
+
+    .provide div dl:first-of-type {
+        margin-right: 0;
+    }
+
+    .provide dd {
+        font-size: 1.4rem;
+    }
+
     .box {
         text-align: center;
     }
@@ -211,4 +226,6 @@
     .box p {
         margin: 5px 5px 5px 5px;
     }
+
+
 }
